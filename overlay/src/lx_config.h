@@ -33,5 +33,5 @@
 #define DEFAULT_ACTION_KEY_MAP          { .goBack = KEY_B, .toggleOverlay = KEY_DUP | KEY_RSTICK_UP }
 
 // debug options
-#define DEBUG_LOG_FILE
+// #define DEBUG_LOG_FILE
 #define DEBUG_NX_LINK

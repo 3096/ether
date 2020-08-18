@@ -38,16 +38,16 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
 
-APP_TITLE	:=	$(notdir $(CURDIR))
-APP_TITLEID :=  0100000000000123
+APP_TITLE	:=	forai
+APP_TITLEID :=  078A01D6025518B0
 APP_AUTHOR	:=	3096
-APP_VERSION	:=	0.0.0
+APP_VERSION	:=	0.0.1
 
-TARGET		:=	$(notdir $(CURDIR))
+TARGET		:=	forai
 BUILD		:=	build
-INCLUDES	:=	source include libs/libluxio/include libs/libluxio/lvgl/lvgl
+INCLUDES	:=	src include libs/libluxio/include libs/libluxio/lvgl/lvgl
 ifneq ($(BUILD),$(notdir $(CURDIR)))
-SOURCES		:=	$(shell find source libs/libluxio/src libs/libluxio/lvgl/lvgl/src -type d)
+SOURCES		:=	$(shell find src libs/libluxio/src libs/libluxio/lvgl/lvgl/src -type d)
 endif
 DATA		:=	data
 #ROMFS	:=	romfs

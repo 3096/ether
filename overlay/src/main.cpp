@@ -3,7 +3,6 @@
 #include "lx/ui/controller.hpp"
 #include "lx/util.hpp"
 #include "screens/main_screen.hpp"
-#include "theme.hpp"
 
 extern "C" {
 u32 __nx_applet_type = AppletType_None;

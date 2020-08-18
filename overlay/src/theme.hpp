@@ -4,6 +4,8 @@
 
 class Theme {
    private:
+    static constexpr auto THEME_COLOR = 0x8B4524;
+
     Theme();
     Theme(const Theme&) = delete;
     ~Theme();

@@ -1,9 +1,9 @@
-# luxio-template
-an overlay template using libluxio
+# forai
+Xenoblade DE or something
 
 ## License
 
-    luxio-template
+    forai
     Copyright (C) 2020  3096
 
     This program is free software; you can redistribute it and/or modify

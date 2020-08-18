@@ -43,3 +43,6 @@
 build
 debug
 release
+cc
+launcher
+.vscode
