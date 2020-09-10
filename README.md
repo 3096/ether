@@ -1,9 +1,9 @@
-# forai
+# Ether Flow
 Xenoblade DE or something
 
 ## License
 
-    forai
+    Ether Flow
     Copyright (C) 2020  3096
 
     This program is free software; you can redistribute it and/or modify

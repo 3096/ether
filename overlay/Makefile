@@ -38,12 +38,12 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
 
-APP_TITLE	:=	forai
+APP_TITLE	:=	Ether Flow
 APP_TITLEID :=  078A01D6025518B0
 APP_AUTHOR	:=	3096
 APP_VERSION	:=	0.0.1
 
-TARGET		:=	forai
+TARGET		:=	ether
 BUILD		:=	build
 INCLUDES	:=	src include libs/libluxio/include libs/libluxio/lvgl/lvgl
 ifneq ($(BUILD),$(notdir $(CURDIR)))
